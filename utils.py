@@ -60,9 +60,9 @@ def create_pdf_report(metraz, pokoje, pietro, rok_budowy, dzielnica, cena, czyns
     pdf.add_page()
 
     # Ładowanie systemowe czcionki arial
-    pdf.add_font("Arial", "", "C:/Windows/Fonts/arial.ttf")
-    pdf.add_font("Arial", "B", "C:/Windows/Fonts/arialbd.ttf")
-    pdf.add_font("Arial", "I", "C:/Windows/Fonts/ariali.ttf")
+    pdf.add_font("Arial", "", "arial.ttf")
+    pdf.add_font("Arial", "B", "arial.ttf")
+    pdf.add_font("Arial", "I", "arial.ttf")
 
 
     # SEKCJA 0 -> tytuł i nagłowek
